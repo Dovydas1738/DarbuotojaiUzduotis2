@@ -22,8 +22,14 @@ namespace ManoPrograma
 
             darbuotojuService.GautiVisusDarbuotojus();
 
-            Programuotojas.Persikvalifikuoti("Java", programuotojas1);
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
 
+            ((Programuotojas)programuotojas1).Persikvalifikuoti("Java");
+            ((Testuotojas)testuotojas2).IgautiPatirties();
+
+            darbuotojuService.GautiVisusDarbuotojus();
 
         }
 

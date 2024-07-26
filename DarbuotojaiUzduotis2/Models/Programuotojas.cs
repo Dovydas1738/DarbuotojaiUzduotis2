@@ -18,7 +18,7 @@ namespace DarbuotojaiUzduotis2.Models
             Atlyginimas = atlyginimas;
         }
 
-        public string Persikvalifikuoti(string kalba, Darbuotojas darbuotojas)
+        public string Persikvalifikuoti(string kalba)
         {
             ProgramavimoKalba = kalba;
             return ProgramavimoKalba;
